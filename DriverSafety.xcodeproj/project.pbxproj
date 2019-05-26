@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12E08DC229A8E210046C681 /* submarine-diving-alarm-daniel_simon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F12E08DB229A8E200046C681 /* submarine-diving-alarm-daniel_simon.mp3 */; };
+		F1B0697C229A7E64008B69EC /* b5dd14e01247494e92bdcf246451ac2d.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F1B0697B229A7E64008B69EC /* b5dd14e01247494e92bdcf246451ac2d.mlmodel */; };
 		F1D6099E2299C24300537924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6099D2299C24300537924 /* AppDelegate.swift */; };
 		F1D609A02299C24300537924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6099F2299C24300537924 /* ViewController.swift */; };
 		F1D609A32299C24300537924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D609A12299C24300537924 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F12E08DB229A8E200046C681 /* submarine-diving-alarm-daniel_simon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "submarine-diving-alarm-daniel_simon.mp3"; path = "../../../Downloads/submarine-diving-alarm-daniel_simon.mp3"; sourceTree = "<group>"; };
+		F1B0697B229A7E64008B69EC /* b5dd14e01247494e92bdcf246451ac2d.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = b5dd14e01247494e92bdcf246451ac2d.mlmodel; path = ../../../Downloads/b5dd14e01247494e92bdcf246451ac2d.mlmodel; sourceTree = "<group>"; };
 		F1D6099A2299C24300537924 /* DriverSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D6099D2299C24300537924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D6099F2299C24300537924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				F1D6099D2299C24300537924 /* AppDelegate.swift */,
 				F1D6099F2299C24300537924 /* ViewController.swift */,
 				F1D609A12299C24300537924 /* Main.storyboard */,
+				F12E08DB229A8E200046C681 /* submarine-diving-alarm-daniel_simon.mp3 */,
+				F1B0697B229A7E64008B69EC /* b5dd14e01247494e92bdcf246451ac2d.mlmodel */,
 				F1D609A42299C24300537924 /* Assets.xcassets */,
 				F1D609A62299C24300537924 /* LaunchScreen.storyboard */,
 				F1D609A92299C24300537924 /* Info.plist */,
@@ -231,6 +237,7 @@
 			files = (
 				F1D609A82299C24300537924 /* LaunchScreen.storyboard in Resources */,
 				F1D609A52299C24300537924 /* Assets.xcassets in Resources */,
+				F12E08DC229A8E210046C681 /* submarine-diving-alarm-daniel_simon.mp3 in Resources */,
 				F1D609A32299C24300537924 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			files = (
 				F1D609A02299C24300537924 /* ViewController.swift in Sources */,
 				F1D6099E2299C24300537924 /* AppDelegate.swift in Sources */,
+				F1B0697C229A7E64008B69EC /* b5dd14e01247494e92bdcf246451ac2d.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +441,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66LDH4TG6J;
 				INFOPLIST_FILE = DriverSafety/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +460,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66LDH4TG6J;
 				INFOPLIST_FILE = DriverSafety/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
